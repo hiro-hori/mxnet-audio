@@ -1,5 +1,6 @@
+# numpy==1.16.2
 librosa == 0.6
-mxnet-cu90
+mxnet-cu110
 scipy
 scikit-learn
 matplotlib

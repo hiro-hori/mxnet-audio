@@ -100,6 +100,7 @@ class Cifar10AudioClassifier(object):
 
     def generate_batch(self, audio_paths, labels, batch_size, shuffled):
         num_batches = len(audio_paths) // batch_size
+        print(f"num_batches: {num_batches}")
         while True:
             batch_index_list = list(range(0, num_batches))
             if shuffled:
